@@ -1,0 +1,35 @@
+1. perform etl activities for data cleaning ,transformations etc.. using numpy and pandas
+
+ETL Pipeline Flow:
+
+CSV files (dirty data)
+        ↓
+Python ETL (Pandas)
+  - Deduplication
+  - Null handling
+  - Business rules
+        ↓
+MySQL clean tables (DDL + constraints)
+        ↓
+SQL analytics + Matplotlib dashboards
+
+
+
+2. build dashboards for the below using matplotlib
+
+Which team has the highest wins across seasons?
+
+Match Insights:
+
+Average runs per match
+
+Matches with “No Result”
+
+Player & Ball Analytics
+
+Runs distribution per match
+
+Wickets per match
+
+High-scoring matches
+
